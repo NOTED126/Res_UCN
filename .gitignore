@@ -1,0 +1,28 @@
+# Downloaded CIFAR-10 dataset
+/data/
+
+# Local Python environments
+/.venv/
+/venv/
+/env/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Generated training records; retain the supplied Res_UCN_Model.pt checkpoint
+/Res_UCN_Record.pt
+/Res_UCN_ES_Record.pt
+/Res_UCN_Best_Model.pt
+
+# Local environment configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db

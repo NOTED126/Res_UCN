@@ -1,0 +1,8 @@
+# Direct dependencies identified from the original notebook.
+# Exact versions must be pinned after validation in a clean environment.
+torch
+torchvision
+numpy
+matplotlib
+Pillow
+jupyterlab
